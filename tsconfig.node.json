@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "allowSyntheticDefaultImports": true,
+      "target": "es2019",  
+      "lib": ["es2019", "dom"],  
+      "outDir": "./dist",  
+      "rootDir": "./src", 
+      "esModuleInterop": true,
+      "strict": true,
+      "jsx": "react"  
+    },
+    "include": [
+      "vite.config.ts",
+      "src/**/*.tsx",  
+      "src/**/*.jsx", 
+      "src/App.tsx", 
+      "src/main.tsx"
+    ]
+  }
